@@ -4,3 +4,5 @@ HEROKU - NODE EXPRESS BASE
 
  => \<app\> => Settings => Config Vars
  If no value is given, Heroku will auto-assign one.
+
+ 2. Add `"start": "node index.js",` to your `package.json` file.
