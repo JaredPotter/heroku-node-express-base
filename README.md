@@ -6,3 +6,7 @@ HEROKU - NODE EXPRESS BASE
  If no value is given, Heroku will auto-assign one.
 
  2. Add `"start": "node index.js",` to your `package.json` file.
+
+ List of required env variavles are in `template.env`.
+    Create a `.env` for local development.
+
