@@ -3,7 +3,7 @@ require('dotenv').config();
 
 const port = process.env.PORT;
 const databaseString = process.env.DATABASE_STRING; // optional
-console.log(`DATABASE_STRING: ${DATABASE_STRING}`);
+console.log(`DATABASE_STRING: ${databaseString}`);
 const app = express();
 
 app.get('/', (req, res) => {
